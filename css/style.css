@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*   navigation bar*/
+.navbar{
+  padding: 4rem;
+  background: #fff;
+}
+
+nav, .logo{
+  height: 2rem;
+}
+
+/*styling hero section*/
+.house-repair{
+  background-image: url("../Images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+div #house-repair-services{
+  margin-top: 3rem;
+}
+
+#experiences{
+  background-color: #e5e5e5;
+}
+
+#aboutUs{
+  background-color:  #004d99;
+}
+
+/*  Media Query for mobile*/
+
+@media all and (max-width: 480px) {
+
+  .house-repair{
+    background-position: 80% 0%;
+  }
+
+#myLogo1, #myLogo2{
+  margin-top: -2rem;
+}
+
+/*#myLogo2{
+ align-items: center;
+}*/
+
+  nav, .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    height: .6rem;
+ 
+  }
+
+  div #house-repair-services{
+ padding-top: 2rem;
+}
+
+  h1, .border-bottom{
+    max-width: 60%;
+  }
+
+ #how-can{
+  text-align: center;
+ }
+
+  #book-call{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #our-services{
+    text-align: center;
+  }
+
+  #planning{
+    text-align: start;
+  }
+
+   #planning-need{
+    text-align: center;
+  }
+
+ #to-do-list{
+  font-size: 1.2rem;
+}
+
+  }
+  
+ /*  media query for tablet*/
+@media all and (max-width: 768px){
+
+  #painting-cleaning-plumbing{
+    font-size: 1.2rem;
+  }
+ 
+  #need-help{
+    text-align: center;
+  }
+
+ div #house-repair-services{
+ margin-top: 7rem;
+}
+
+/*div #to-do-list{
+  font-size: 1.5rem;
+}*/
+
+  footer{
+    align-items: center;
+    text-align: center;
+  }
+}
+/*media query desktop*/
+/* @media all and (max-width: 1024px){
+  div  #house-repair-services{
+  margin-top: 1rem;
+}
+
+  }*/
